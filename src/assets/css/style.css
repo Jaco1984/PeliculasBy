@@ -1,0 +1,64 @@
+/* line 14, src/assets/scss/style.scss */
+.footer {
+  padding: 110px;
+  color: white;
+  background-color: black; }
+
+/* line 24, src/assets/scss/style.scss */
+.puntero {
+  cursor: pointer; }
+
+/* line 28, src/assets/scss/style.scss */
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 34px;
+  margin-left: 213px;
+  background-size: cover; }
+
+/* line 36, src/assets/scss/style.scss */
+.div-pic-1 {
+  width: 263px;
+  height: 237px;
+  background-size: cover; }
+
+/* line 42, src/assets/scss/style.scss */
+.pic-titulo {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  padding: 10px;
+  color: white;
+  background-color: black; }
+
+/* Animaciones */
+/* line 54, src/assets/scss/style.scss */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 61, src/assets/scss/style.scss */
+.fast {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* line 77, src/assets/scss/style.scss */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }

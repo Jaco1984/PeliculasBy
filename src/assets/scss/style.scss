@@ -1,0 +1,79 @@
+@import "variables";
+// body {
+//     margin: 0;
+//     padding: 0;
+//     padding-bottom: 200px;
+// }
+// * {
+//     margin: 0;
+//     padding: 0;
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+// }
+.footer {
+    padding: 110px;
+    color: $color-white;
+    background-color: $color-black;
+}
+
+// .main-container {
+//     margin-top: 40px;
+//     margin-bottom: 150px;
+// }
+.puntero {
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 34px;
+    margin-left: 213px;
+    background-size: cover;
+}
+
+.div-pic-1 {
+    width: 263px;
+    height: 237px;
+    background-size: cover;
+}
+
+.pic-titulo {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    padding: 10px;
+    color: white;
+    background-color: $color-black;
+}
+
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
